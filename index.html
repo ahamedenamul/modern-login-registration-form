@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Modern Login & Registration</title>
+    <link rel="stylesheet" href="style.css">
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css"
+      integrity="sha512-2SwdPD6INVrV/lHTZbO2nodKhrnDdJK9/kg2XD1r9uGqPo1cUbujc+IYdlYdEErWNu69gVcYgdxlmVmzTWnetw=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link
+      href="https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css"
+      rel="stylesheet"
+    />
+    <!--https://boxicons.com/ -->
+</head>
+<body>
+    <div class="container">
+        <div class="form-container">
+            <h1 class="title">Sign Up</h1>
+            <div class="underline"></div>
+            <form action="">
+                <div class="input-field-box">
+                    <div class="input-field username-field">
+                        <i class="fa-regular fa-user"></i>
+                        <input type="text" placeholder="Username">
+                    </div>
+                    <div class="input-field">
+                        <i class="fa-solid fa-at"></i>
+                        <input type="email" placeholder="Email">
+                    </div>
+                    <div class="input-field">
+                        <i class="fa-solid fa-key"></i>
+                        <input type="password" placeholder="Password">
+                        <i class="fa-regular fa-eye-slash showhide-password"></i>
+                    </div>
+                    <p>
+                        <span class="dynamic-text">Password Suggestions?</span>
+                        <a href="#">Click Here!</a>
+                    </p>
+                </div>
+                <div class="btnBox">
+                    <button class="btn sign-up-btn" type="button">Sign Up</button>
+                    <button class="btn sign-in-btn btnInactive" type="button">Sign In</button>
+                </div>
+            </form>
+        </div>
+    </div>
+    
+    <script src="script.js"></script>
+</body>
+</html>
